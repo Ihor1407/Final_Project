@@ -6,48 +6,53 @@
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="max-w-[1600px] mx-auto">
     <header class="">
       <div></div>
-      <div></div>
     </header>
     <main>
       <section
-        class="flex flex-col bg-cover bg-center mx-auto text-center bg-blend-overlay bg-[url('/image/bg.png')]"
+        class="font-['Raleway'] flex flex-col bg-cover bg-center mx-auto text-center bg-blend-overlay bg-[url('/image/bg.png')]"
       >
         <div class="container w-full px-4 items-center">
           <h1
-            class="text-black text-[38px] max-w-[428px] md:text-[48px] lg:text-[65px] lg:max-w-none mt-[32px] mx-auto gap-10"
+            class="text-black text-[38px] max-w-[300px] md:text-[44px] md:max-w-[768px] lg:text-[65px] lg:max-w-none mt-[32px] mx-auto gap-10"
           >
             Українська Асоціація «Джерело»
           </h1>
           <p
-            class="text-base max-w-[460px] mt-[10px] mx-auto lg:text-xl lg:max-w-[535px]"
+            class="text-base max-w-[320px] mt-[10px] mx-auto lg:text-xl lg:max-w-[535px]"
           >
             Розвиток та підтримка української діаспори в Каталонії, Іспанії з
             2012 року
           </p>
         </div>
         <div
-          class="flex flex-col items-center lg:gap-[20px] lg:mt-[35px] lg:mb-[110px] lg:flex-row lg:items-center justify-center w-full"
+          class="flex flex-col items-center lg:gap-[20px] mb-[20px] lg:mt-[35px] xl:mb-[110px] lg:flex-row lg:items-center justify-center w-full"
         >
           <button
-            class="rounded-full w-full max-w-[460px] lg:max-w-[350px] mt-[15px] border border-blue text-white py-[15px] md:text-xl bg-blue-500 hover:cursor-pointer hover:bg-blue-300"
+            class="rounded-full w-full max-w-[300px] md:max-w-[350px] lg:max-w-[350px] mt-[15px] border border-blue text-white py-[15px] md:text-xl bg-blue-500 hover:cursor-pointer hover:bg-blue-300"
           >
             Зв’язатись
           </button>
 
           <button
-            class="rounded-full w-full mt-[10px] max-w-[460px] lg:max-w-[350px] border border-yellow md:text-xl text-black py-[15px] bg-[#FFE711] hover:cursor-pointer hover:bg-yellow-00"
+            class="rounded-full w-full max-w-[300px] md:max-w-[350px] mt-[10px] lg:max-w-[350px] border border-yellow md:text-xl text-black py-[15px] bg-[#FFE711] hover:cursor-pointer hover:bg-yellow-200"
           >
             Підтримати
           </button>
         </div>
       </section>
-      <!--<section class="relative">
+      <section class="relative">
         <svg
-          class="absolute -top-40 left-0 -z-10 blur-[300px]"
+          class="absolute -top-40 -left-20 -z-10 blur-[300px]"
           width="285"
           height="355"
           viewBox="0 0 285 355"
@@ -57,17 +62,17 @@
           <circle cx="107.5" cy="177.5" r="177.5" fill="#1A7DF0" />
         </svg>
         <svg
-          class="absolute top-[-420px] left-[1200px] -z-10 blur-[300px]"
+          class="absolute top-[-420px] -right-20 -z-10 blur-[300px]"
           width="285"
           height="355"
-          viewBox="0 0 355 355"
+          viewBox="0 0 285 355"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
           <circle cx="177.5" cy="177.5" r="177.5" fill="#FFE711" />
         </svg>
-      </section>-->
-      <section class="">
+      </section>
+      <section class="font-['Raleway']">
         <div class="ticker">
           <div class="ticker__track">
             <span class="ticker__text">Допомагаємо</span>
@@ -86,15 +91,17 @@
         </div>
       </section>
 
-      <section class="max-w-[1400px] w-full mx-auto px-4">
+      <section
+        class="font-['Raleway'] w-full max-w-[1400px] mx-auto px-4 my-10 lg:my-20 overflow-hidden"
+      >
         <h2
-          class="text-[28px] md:text-[36px] lg:text-[42px] text-center mt-[80px] mb-[40px]"
+          class="text-[28px] md:text-[36px] lg:text-[42px] text-center mt-10 mb-10"
         >
           Хто ми та що робимо
         </h2>
 
         <div
-          class="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-8 lg:gap-12 mb-[80px]"
+          class="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-8 lg:gap-20 lg:mb-[80px]"
         >
           <div class="lg:flex-1 flex flex-col justify-center space-y-10">
             <p class="text-2xl font-bold lg:text-3xl leading-snug">
@@ -130,18 +137,20 @@
           </div>
         </div>
       </section>
-      <section class="lg:max-w-[1400px]">
-        <div class="lg:flex lg:flex-row m-5">
+      <section class="font-['Raleway'] max-w-[1440px] xl:m-[80px]">
+        <div
+          class="md:grid md:grid-cols xl:grid-cols-2 px-4 gap-4 md:items-start"
+        >
           <div
-            class="border flex-1 flex flex-col items-center max-w-[460px] lg:max-w-[700px] bg-blue-500 text-white rounded-xl"
+            class="border flex-1 flex flex-col items-center md:self-stretch bg-blue-500 text-white rounded-xl"
           >
             <h2
-              class="text-[28px] text-white text-start lg:ml-[56px] lg:mr-[67px] lg:max-w-[587] lg:text-[42px]] ml-[25px] mb-[30px] mt-[25px]"
+              class="text-[24px] text-white text-start md:text-3xl xl:ml-[56px] xl:mr-[67px] lg:text-[42px] ml-[25px] mb-[30px] mt-[25px]"
             >
               Основними цілями діяльності Асоціації є:
             </h2>
             <ul
-              class="text-base lg:text-xl ml-6 mb-[25px] lg:ml-[56px] lg:mr-[67px] lg:mb-[56px] space-y-[10px]"
+              class="text-base md:text-lg lg:text-xl ml-6 mb-[25px] lg:ml-[56px] lg:mr-[67px] lg:mb-[56px] space-y-[10px] p-3"
             >
               <li class="flex items-start gap-3">
                 <svg
@@ -301,30 +310,23 @@
               </li>
             </ul>
           </div>
+          <div class="grid grid-cols-2 mt-2 md:mt-0 max-w-none gap-[20px]">
+            <img
+              src="./image/first.png"
+              alt="Дівчата заплітають коси"
+              class="object-cover h-full w-full rounded-xl"
+            />
+            <img
+              src="./image/girl.png"
+              alt="Дівчата кудись йдуть"
+              class="object-cover h-full w-full rounded-xl"
+            />
 
-          <div
-            class="lg:flex-1 flex flex-col gap-[20px] lg:ml-[20px] lg:max-w-none lg:w-full mt-[20px] lg:mt-0"
-          >
-            <div class="flex flex-row gap-[20px] lg:h-1/3">
-              <img
-                src="./image/first.png"
-                alt="Дівчата заплітають коси"
-                class="w-1/2 object-cover rounded-xl"
-              />
-              <img
-                src="./image/girl.png"
-                alt="Дівчата кудись йдуть"
-                class="w-1/2 object-cover rounded-xl"
-              />
-            </div>
-
-            <div class="lg:w-full lg:h-1/2">
-              <img
-                src="./image/help.png"
-                alt="Допомога"
-                class="w-full h-full object-cover rounded-xl"
-              />
-            </div>
+            <img
+              src="./image/help.png"
+              alt="Допомога"
+              class="col-span-2 h-full w-full object-cover rounded-xl"
+            />
           </div>
         </div>
       </section>
