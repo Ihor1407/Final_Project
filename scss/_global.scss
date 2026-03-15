@@ -10,6 +10,89 @@ $accent-aux-tertiary: #333333;
 $container-padding: 12px 80px;
 $max-width: 1920px;
 
+// Breakpoints
+
+$breakpoint-tablet: 1280px;
+$breakpoint-mobile: 768px;
+
+// Colors
+
+// White theme
+
+:root {
+  --padding-container: 12px 80px;
+
+  --color-text-bw: #333333;
+  --color-text-bb: #333333;
+  --color-text-wb: #ffffff;
+  --color-text-ww: #ffffff;
+
+  --color-accent-hover: #1a7df0;
+  --color-accent-span: #1a7df0;
+
+  --color-accent-logo: #3a59a1;
+
+  --color-border: #333333;
+
+  --color-svg-basic: #333333;
+
+  --color-bg: #ffffff;
+
+  --color-breadcrumbs: #33333380;
+
+  --color-primary: #1a7df0;
+
+  --color-button-main: #ffe711;
+  --color-button-main-hover: #f9d100;
+
+  --color-button-secondary: #1a7df0;
+  --color-button-secondary-hover: #005bc5;
+
+  --color-button-transparent-hover: #1a7df0;
+
+  --color-button-transparent-by: #333333;
+  --color-button-transparent-by-hover: #1a7df0;
+
+  --color-outline-tb: transparent;
+
+  --color-accent-hover: #f9d100;
+}
+
+// Dark theme
+
+body.dark-theme {
+  --color-text-bw: #ffffff;
+  --color-text-bb: #333333;
+  --color-text-wb: #333333;
+  --color-text-ww: #ffffff;
+
+  --color-accent-hover: #f9d100;
+  --color-accent-span: #ffe711;
+
+  --color-accent-logo: #ffffff;
+
+  --color-border: #ffffff;
+
+  --color-svg-basic: #ffffff;
+
+  --color-bg: #333333;
+
+  --color-breadcrumbs: #ffffffb0;
+
+  --color-button-main: #ffe91f;
+  --color-button-main-hover: #1a7df0;
+
+  --color-button-secondary: #ffffff;
+  --color-button-secondary-hover: #ffffff;
+
+  --color-button-transparent-hover: #ffe711;
+
+  --color-button-transparent-by: #ffe711;
+  --color-button-transparent-by-hover: #ffffff;
+
+  --color-outline-tb: #000000;
+}
+
 html,
 body {
   margin: 0;
@@ -148,4 +231,3 @@ a {
     border-color: $accent-main-primary;
   }
 }
-
